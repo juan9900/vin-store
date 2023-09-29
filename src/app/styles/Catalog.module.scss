@@ -1,0 +1,26 @@
+$dark: theme('colors.darkText');
+
+.divider-row:first-of-type {
+    width: 35%;
+    height: 25%;
+    background: $dark;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.divider-row:last-of-type {
+    width: 35%;
+    height: 25%;
+    background: $dark;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.slick-list {
+    background: red;
+
+}
